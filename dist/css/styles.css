@@ -1,0 +1,109 @@
+body {
+  background: #2b2b2b;
+  font-family: arial;
+  margin-top: 120px; }
+
+.cir {
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  background: black;
+  margin: auto;
+  position: relative; }
+
+.console {
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  background: grey;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: center;
+  margin: auto; }
+
+h1 {
+  font-size: 80px; }
+
+#message {
+  color: black; }
+
+.time {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  text-align: center; }
+
+.message {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  text-align: center; }
+
+.timeContainer {
+  position: absolute;
+  overflow: hidden;
+  width: 130px;
+  margin: 0px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center; }
+
+.breakTime {
+  top: 280px;
+  left: 75px;
+  background: #18CAE6; }
+
+.workTime {
+  top: 280px;
+  right: 75px;
+  background: #FF0000; }
+
+.breakMarker {
+  position: absolute;
+  top: 310px;
+  left: 95px;
+  font-family: arial;
+  color: white; }
+
+.workMarker {
+  position: absolute;
+  top: 310px;
+  right: 95px;
+  font-family: arial;
+  color: white; }
+
+.timeButton {
+  font-size: 30px;
+  background: white;
+  text-align: center;
+  border: none;
+  width: 40px;
+  height: 34px;
+  margin: 0px;
+  float: left;
+  outline: 0 !important;
+  cursor: pointer; }
+
+.timeCount {
+  background: transparent;
+  color: white;
+  width: 50px;
+  height: 34px;
+  margin: 0px;
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+  border-left: 5px;
+  float: left; }

@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/script/soundmanager2-jsmin.js"></script>
+</head>
+
+<body>
+  <div class="cir">
+    <div class="cir2 text-center">
+    </div>
+
+    <div class="console text-center"></div>
+
+
+    <div class="timeContainer breakTime">
+      <button id="subFromBreak" class="timeButton subTime"><i class="fa fa-minus"></i>
+      </button>
+      <div id="timeOfBreak" class="timeCount">5
+      </div>
+      <button id="addToBreak" class="timeButton addTime"><i class="fa fa-plus"></i>
+      </button>
+    </div>
+    <h3 class="workMarker">Work Time</h3>
+
+    <div class="timeContainer workTime">
+      <button id="subFromWork" class="timeButton subTime"><i class="fa fa-minus"></i>
+      </button>
+      <div id="timeOfWork" class="timeCount">25
+      </div>
+      <button id="addToWork" class="timeButton addTime"><i class="fa fa-plus"></i>
+      </button>
+    </div>
+    <h3 class="breakMarker">Break Time</h3>
+
+    <div>
+    <h1 id="clock" class="time">25:00</h1>
+      <h1 id="message" class="message"></h1>
+  </div>
+  </div>
+
+
+</body>
+
+
+</html>
